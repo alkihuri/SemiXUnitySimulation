@@ -6,9 +6,7 @@ using UnityEngine;
 public class OutputIO : IOEntity
 {
 
-    
-
-
+     
     private void OnTriggerStay(Collider other)
     {
         GameObject enteredOne = other.gameObject;
